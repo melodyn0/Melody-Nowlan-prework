@@ -1,0 +1,38 @@
+body {
+    font-size: 12px;
+    text-align: center;
+    color: black
+}
+
+header {
+    width: 100%;
+    background-color: grey;
+}
+
+div {
+    margin-top: 25px;
+}
+
+#left {
+    float: left;
+    background-color: blue;
+    width: 50%;
+    height: 250px;
+    vertical-align: text-bottom;
+    padding-top: 250px;
+}
+
+#right {
+    float: right;
+    background-color: red;
+    width: 25%;
+    height: 250px;
+    padding-top: 250px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: green;
+    width: 100%;
+}
