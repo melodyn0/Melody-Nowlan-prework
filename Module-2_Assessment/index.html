@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body onload="clear()">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/images/hangman.jpeg"  class="rounded mx-auto d-block" alt="Hangman logo">
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/early_2000s.jpg"  class="rounded mx-auto d-block" alt="early 2000s">
+            </div>
+        </div>
+
+        <section id="body">
+            <div class="row">
+                <div class="col-md-6" id="line">
+                    <img id="picture"/>
+                </div>
+
+                <div class="col-md-6">
+                    <p id="start">Press any key to get started!</p>
+                    <p>Wins</p>
+                    <p id="win_streak"></p>
+                    <p>Current Word</p>
+                    <p id="current_word"></p>
+                    <p>Number of Guesses Remaining</p>
+                    <p id="guesses_left"></p>
+                    <p>Letters Already Guessed</p>
+                    <p id="letters_guessed"></p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+</html>
